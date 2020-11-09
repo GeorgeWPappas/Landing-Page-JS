@@ -1,0 +1,105 @@
+<!--
+    Author: George Pappas
+    Date: September 18, 2020
+    Class: Software Engineering
+    Project: Sprint 2 - Lab 2 - Dice Roller
+    Description: This is the first version of my Dice Roller application and is being submitted as part of Lab 2.
+-->
+
+<!doctype html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8" name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+		<title>Dice Roller - George Pappas</title>
+        <link rel="stylesheet" href="dice-roller.css">
+        <script src="dice-roller.js"></script>
+    </head>
+
+    <body onload="changeImage1(), changeImage2(), changeImage3(), changeImage4(), changeImage5(), changeImage6()">
+        <!-- Header -->
+        <h1>Dice Roller</h1>
+        <hr>
+
+        <!-- How to use statement. -->
+        <p>
+            Click on any of the dice to randomly roll it!
+        </p>
+
+        <!-- Container for dice 1 -->
+        <div class="container">
+            <img id="image1" src='Dice_1.png' alt="Dice" class="image" width="128">
+            <div class="middle">
+                <button onclick="changeImage1();">
+                    Roll
+                </button>
+            </div>
+        </div>
+
+        <!-- Container for dice 2 -->
+        <div class="container">
+            <img id="image2" src='Dice_2.png' alt="Dice" class="image" width="128">
+            <div class="middle">
+                <button onclick="changeImage2();">
+                    Roll
+                </button>
+            </div>
+        </div>
+
+        <!-- Container for dice 3 -->
+        <div class="container center">
+            <img id="image3" src='Dice_3.png' alt="Dice" class="image" width="128">
+            <div class="middle">
+                <button onclick="changeImage3();">
+                    Roll
+                </button>
+            </div>
+        </div>
+
+        <!-- Container for dice 4 -->
+        <div class="container">
+            <img id="image4" src='Dice_4.png' alt="Dice" class="image" width="128">
+            <div class="middle">
+                <button onclick="changeImage4();">
+                    Roll
+                </button>
+            </div>
+        </div>
+
+        <!-- Container for dice 5 -->
+        <div class="container">
+            <img id="image5" src='Dice_5.png' alt="Dice" class="image" width="128">
+            <div class="middle">
+                <button onclick="changeImage5();">
+                    Roll
+                </button>
+            </div>
+        </div>
+
+        <!-- Container for dice 6 -->
+        <div class="container">
+            <img id="image6" src='Dice_6.png' alt="Dice" class="image" width="128">
+            <div class="middle">
+                <button onclick="changeImage6();">
+                    Roll
+                </button>
+            </div>
+        </div>
+
+        <div>
+            <button class="button" onclick="changeImage1() + changeImage2() + changeImage3() +
+            changeImage4() + changeImage5() + changeImage6();" autofocus>
+                Roll All Dice
+            </button>
+        </div>
+        <hr>
+
+        <!-- Closing section. -->
+        <h3>
+            Thank you for using the Dice Roller!
+        </h3>
+
+    </body>
+</html>
