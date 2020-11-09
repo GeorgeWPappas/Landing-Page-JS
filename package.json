@@ -1,24 +1,15 @@
 {
-  "name": "node landing page",
+  "name": "package.json",
   "version": "1.0.0",
-  "description": "landing page.",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GeorgeWPappas/Landing-Page-JS.git"
-  },
   "author": "George Pappas",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/GeorgeWPappas/Landing-Page-JS/issues"
-  },
-  "homepage": "https://github.com/GeorgeWPappas/Landing-Page-JS#readme"
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  }
 }
