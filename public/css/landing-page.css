@@ -5,7 +5,7 @@ html {
 body {
     width: auto;
     height: auto;
-    background-image: url('vaporwave.jpg');
+    background-image: url('/img/vaporwave.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
