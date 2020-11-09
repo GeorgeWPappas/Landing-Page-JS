@@ -14,8 +14,6 @@ app.use(express.static(__dirname + '/public'))
 
 app.get('/', (req, res) => res.render('home'))
 
-app.get('/about', (req, res) => res.render('about'))
-
 app.get('/myfavoritehobby', (req, res) => res.render('myfavoritehobby'))
 app.get('/diceroll', (req, res) => res.render('diceroll'))
 app.get('/syllabus', (req, res) => res.render('syllabus'))
