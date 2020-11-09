@@ -1,0 +1,37 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Arial", Arial, Sans-serif;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: rgb(191, 191, 191);
+}
+    
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    background-color: rgb(250, 200, 50);
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+form {
+    font-size: 30px;
+}
+
+.button {
+    background-color: rgb(15, 170, 255);
+    border-radius: 10px;
+    padding: 10px
+}
+
+input {
+    size: 500px;
+    height: 24px;
+    width: 60%;
+    border: 3px solid rgb(15, 170, 255);
+}
