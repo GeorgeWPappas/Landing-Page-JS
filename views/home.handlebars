@@ -1,31 +1,163 @@
-<style>
-    head {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin: auto;
-        width: 50%;
-        height: 50%;
-    }
+<!--
+    Author: George Pappas
+    Date: September 17, 2020
+    Class: Software Engineering
+    Project: Sprint 2 - Lab 2 - Azure Landing Page
+    Description: This is the first version of my Azure Landing Page application and is being submitted as part of Lab 2.
+-->
 
-    body {
-        text-align: center;
-        margin-left: 50px;
-        margin-right: 50px;
-        font-family: "Arial", Arial, Sans-serif;
-        background-color: black;
-    }
-        
-    h1 {
-        font-size: 20px;
-        font-style: italic;
-        color: white;
-        margin-top: 50px;
-    }
-</style>
-<head>
-    <img src="/img/hello_world.gif" alt="hello_world_gif">
-</head>
-<body>
-    <h1>This is the homepage of George's Hello World on Node.JS</h1>
-</body>
+<!doctype html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Landing Page - George Pappas</title>
+        <link rel="stylesheet" href="landing-page.css">
+    </head>
+
+    <!-- Back to top button -->
+    <button onclick="topFunction()" id="topBtn" title="Go to top" class="rotate">Top</button>
+    <script>
+        var topButton = document.getElementById("topBtn");
+        window.onscroll = function() {scrollFunction()};
+            
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
+        }
+            
+        // Scrolls to the top of the page when the user presses the button.
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <body>
+        <!-- Header section. -->
+        <h1>
+            George's Landing Page for Software Engineering
+        </h1>
+        <hr>
+
+        <!-- Sprint 1 section. -->
+        <h2>
+            Sprint 1 - Weeks 1 & 2
+        </h2>
+        <p>
+            <!-- Link to website. -->
+            <a href="https://my-favorite-hobby-gp.azurewebsites.net/my-favorite-hobby.html" target="_blank">
+                My Favorite Hobby - Web App
+            </a>
+            <br>
+            <a href="https://github.com/GeorgeWPappas/My-Favorite-Hobby" target="_blank">
+                My Favorite Hobby - GitHub
+            </a>
+        </p>
+        <hr>
+
+        <!-- Sprint 2 section. -->
+        <h2>
+            Sprint 2 - Weeks 3 & 4
+        </h2>
+        <p>
+            <!-- Link to website. -->
+            <a href="https://dice-roller-gp.azurewebsites.net/dice-roller.html" target="_blank">
+                Dice Roller - Web App
+            </a>
+            <br>
+            <a href="https://github.com/GeorgeWPappas/Dice-Roller" target="_blank">
+                Dice Roller - GitHub
+            </a>
+            <br>
+            <br>
+            <a href="https://course-syllabus-gp.azurewebsites.net/index.html" target="_blank">
+                Course Syllabus - Web App
+            </a>
+            <br>
+            <a href="https://github.com/GeorgeWPappas/Course-Syllabus" target="_blank">
+                Course Syllabus - GitHub
+            </a>
+            <br>
+            <br>
+            <a href="https://regexp-tester-gp.azurewebsites.net/regexp.html" target="_blank">
+                RegExp Tester - Web App
+            </a>
+            <br>
+            <a href="https://github.com/GeorgeWPappas/RegExp-Tester" target="_blank">
+                RegExp Tester - GitHub
+            </a>
+        </p>
+        <hr>
+
+        <!-- Sprint 3 section. -->
+        <h2>
+            Sprint 3 - Weeks 5 & 6
+        </h2>
+        <p>
+            <!-- Link to website. -->
+            <a href="https://node-js-hello-world-gp.azurewebsites.net" target="_blank">
+                Hello World on Node.js - Web App
+            </a>
+            <br>
+            <a href="https://github.com/GeorgeWPappas/Node-JS-Hello-World" target="_blank">
+                Hello World on Node.js - GitHub
+            </a>
+        </p>
+        <hr>
+
+        <!-- Sprint 4 section. -->
+        <h2>
+            Sprint 4 - Weeks 7 & 8
+        </h2>
+        <p>
+            Sprint 4 Placeholder
+        </p>
+        <hr>
+
+        <!-- Sprint 5 section. -->
+        <h2>
+            Sprint 5 - Weeks 9 & 10
+        </h2>
+        <p>
+            Sprint 5 Placeholder
+        </p>
+        <hr>
+
+        <!-- Sprint 6 section. -->
+        <h2>
+            Sprint 6 - Weeks 11 & 12
+        </h2>
+        <p>
+            Sprint 6 Placeholder
+        </p>
+        <hr>
+
+        <!-- Sprint 7 section. -->
+        <h2>
+            Sprint 7 - Weeks 13 & 14
+        </h2>
+        <p>
+            Sprint 7 Placeholder
+        </p>
+        <hr>
+
+        <!-- Sprint 8 section. -->
+        <h2>
+            Sprint 8 - Weeks 15 & 16
+        </h2>
+        <p>
+            Sprint 8 Placeholder
+        </p>
+        <hr>
+
+        <!-- Closing section. -->
+        <h3>
+            Thank you for visiting!
+        </h3>
+
+    </body>
+</html>
