@@ -1,7 +1,7 @@
 {
-  "name": "node landing page",
+  "name": "nodepersonal",
   "version": "1.0.0",
-  "description": "landing page.",
+  "description": "landing for software eng.",
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GeorgeWPappas/Landing-Page-JS.git"
+    "url": "git+https://github.com/lpetrongellijr/loupetrongelli-node.git"
   },
-  "author": "George Pappas",
+  "author": "lou petrongelli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/GeorgeWPappas/Landing-Page-JS/issues"
+    "url": "https://github.com/lpetrongellijr/loupetrongelli-node/issues"
   },
-  "homepage": "https://github.com/GeorgeWPappas/Landing-Page-JS#readme"
+  "homepage": "https://github.com/lpetrongellijr/loupetrongelli-node#readme"
 }
