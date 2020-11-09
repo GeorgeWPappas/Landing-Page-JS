@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lpetrongellijr/loupetrongelli-node.git"
+    "url": "git+https://github.com/GeorgeWPappas/Landing-Page-JS.git"
   },
   "author": "George Pappas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lpetrongellijr/loupetrongelli-node/issues"
+    "url": "https://github.com/GeorgeWPappas/Landing-Page-JS/issues"
   },
   "homepage": "https://github.com/GeorgeWPappas/Landing-Page-JS#readme"
 }
